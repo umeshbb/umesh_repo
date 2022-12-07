@@ -29,11 +29,7 @@ public void clickonSignInButton() {
 }
 	
 	
-public void clickonSignInButton(String str) {
-	signinButton.click();
-	Reporter.log("clicking on sign-in button...",true);
-}
-		
+	
 	
 	
 	
