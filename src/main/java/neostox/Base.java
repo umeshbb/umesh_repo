@@ -18,6 +18,14 @@ public class Base {
 		 driver=new ChromeDriver();
 		 driver.manage().window().maximize();
 		Reporter.log("launching browser...",true);
+		
+		
+		
+		
+		
+		
+		
+		
 		 driver.get(Utility.readdatafrompropertyfile("url"));
 		
 	}
