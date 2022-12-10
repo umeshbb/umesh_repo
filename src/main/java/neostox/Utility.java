@@ -47,6 +47,11 @@ public  static void screenshot( WebDriver driver, String str) throws IOException
 	
 	File src = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	 File dest =new File("C:\\Users\\Umesh\\Desktop\\selenium\\screesnhot\\"+str+".jpg");
+	
+	
+	
+	
+	
 	 FileHandler.copy(src, dest);
 	 Reporter.log("takingscreenshot...",true);
 }
