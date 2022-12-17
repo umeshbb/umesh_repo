@@ -44,15 +44,6 @@ public String getBalence() {
 		username.click();
 		logout.click();
 		Reporter.log("loging out ...",true);
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	}	
 	
 }
