@@ -35,11 +35,7 @@ public String getBalence() {
 		Utility.wait(driver, 5000);
 		Utility.scroll(driver, popupclosebutton);
 		popupclosebutton.click();
-		Reporter.log("clicking on close button...",true);
-		
-		
-		
-		
+		Reporter.log("clicking on close button...",true);	
 	}
 	
 	
