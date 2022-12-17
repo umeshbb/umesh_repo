@@ -7,9 +7,6 @@ import java.io.IOException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Reporter;
-
-
-
 public class Base {
 	protected  static WebDriver driver;
 	public void launchbrowser() throws IOException
@@ -22,8 +19,4 @@ public class Base {
 		 driver.get(Utility.readdatafrompropertyfile("url"));
 		
 	}
-	
-
-	
-
 }
