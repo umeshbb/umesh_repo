@@ -16,5 +16,11 @@ public class Base {
 		
 		 driver.get(Utility.readdatafrompropertyfile("url"));
 		
+		
+		
+		
+		
+		
+		
 	}
 }
