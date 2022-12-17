@@ -14,13 +14,7 @@ public class Base {
 		 driver.manage().window().maximize();
 		Reporter.log("launching browser...",true);
 		
-		 driver.get(Utility.readdatafrompropertyfile("url"));
-		
-		
-		
-		
-		
-		
+		 driver.get(Utility.readdatafrompropertyfile("url"));	
 		
 	}
 }
